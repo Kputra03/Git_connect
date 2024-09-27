@@ -1,1 +1,83 @@
+// nama : kevin natanael putera prasetya
+// Nim : 231011403183
 
+// menjawab soal no 1
+
+#include <iostream>
+using namespace std;
+
+int main() {
+ const int ANGKA = 10;
+    int nomor[ANGKA];
+    int maxNumber, minNumber;
+    cout << "Masukkan 10 angka:\n";
+    for(int i = 0; i < ANGKA; i++) {
+    in >> nomor[i];
+     }
+     
+     maxNumber = nomor[0];
+     minNumber = nomor[0];
+     for(int i = 1; i < ANGKA; i++) {
+        if(nomor[i] > maxNumber) {
+           maxNumber = nomor[i];}
+        if(nomor[i] < minNumber) {
+        minNumber = nomor[i];}
+     }
+
+    cout << "Nilai maksimum: " << maxNumber << endl;
+    cout << "Nilai minimum: " << minNumber << endl;
+
+    return 0;
+}
+
+
+
+
+
+//menjawab soal no 2 
+
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+        const int ANGKA = 5;
+            int array1[ANGKA], array2[ANGKA], jumlaharray[ANGKA];
+
+                
+                    cout << "Masukkan 5 angka untuk array pertama:\n";
+                        for(int i = 0; i < ANGKA; i++) {
+                                    cin >> array1[i];
+                        }
+
+                            
+                                cout << "Masukkan 5 angka untuk array kedua:\n";
+                                    for(int i = 0; i < ANGKA; i++) {
+                                                cin >> array2[i];
+                                    }
+
+                                        
+                                            for(int i = 0; i < ANGKA; i++) {
+                                                        jumlaharray[i] = array1[i] + array2[i];
+                                            }
+
+                                                
+                                                    cout << "Hasil penjumlahan kedua array adalah:\n";
+                                                        for(int i = 0; i < ANGKA; i++) {
+                                                                    cout << jumlaharray[i] << " ";
+                                                        }
+                                                            cout << endl;
+
+                                                                return 0;
+}
+                                                        }
+                                            }
+                                    }
+                        }
+}
+                                                                }
+                                                        }
+                                              }
+                            }
+}
